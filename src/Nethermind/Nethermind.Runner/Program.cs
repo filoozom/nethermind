@@ -400,6 +400,10 @@ namespace Nethermind.Runner
                 configFilePath = configPathVariable;
             }
 
+            if (configFilePath == "xdai") {
+                configFilePath = "gnosis"
+            }
+
             if (!PathUtils.IsExplicitlyRelative(configFilePath))
             {
                 configFilePath = configDir == DefaultConfigsDirectory

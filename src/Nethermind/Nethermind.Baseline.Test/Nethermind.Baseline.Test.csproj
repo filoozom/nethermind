@@ -142,12 +142,12 @@
         <Link>configs\volta_archive.cfg</Link>
 		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="..\Nethermind.Runner\configs\xdai.cfg">
-        <Link>configs\xdai.cfg</Link>
+      <Content Include="..\Nethermind.Runner\configs\gnosis.cfg">
+        <Link>configs\gnosis.cfg</Link>
 		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
-      <Content Include="..\Nethermind.Runner\configs\xdai_archive.cfg">
-        <Link>configs\xdai_archive.cfg</Link>
+      <Content Include="..\Nethermind.Runner\configs\gnosis_archive.cfg">
+        <Link>configs\gnosis_archive.cfg</Link>
 		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
       <Content Include="testBytecode">

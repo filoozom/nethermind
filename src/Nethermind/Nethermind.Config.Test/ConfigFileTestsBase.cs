@@ -73,9 +73,9 @@ namespace Nethermind.Config.Test
         protected IEnumerable<string> EnergyConfigs
             => Configs.Where(config => config.Contains("energy"));
 
-        [ConfigFileGroup("xdai")]
-        protected IEnumerable<string> XDaiConfigs
-            => Configs.Where(config => config.Contains("xdai"));
+        [ConfigFileGroup("gnosis")]
+        protected IEnumerable<string> GnosisConfigs
+            => Configs.Where(config => config.Contains("gnosis"));
 
         [ConfigFileGroup("goerli")]
         protected IEnumerable<string> GoerliConfigs
@@ -113,7 +113,7 @@ namespace Nethermind.Config.Test
         protected IEnumerable<string> AuraConfigs
             => PoaCoreConfigs
                 .Union(SokolConfigs)
-                .Union(XDaiConfigs)
+                .Union(GnosisConfigs)
                 .Union(VoltaConfigs)
                 .Union(EnergyConfigs)
                 .Union(KovanConfigs);

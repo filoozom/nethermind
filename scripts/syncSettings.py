@@ -39,7 +39,7 @@ configs = {
         "blockReduced": 8192,
         "multiplierRequirement": 10000
     },
-    "xdai": {
+    "gnosis": {
         "url": "https://rpc.gnosischain.com",
         "blockReduced": 8192,
         "multiplierRequirement": 10000
@@ -96,7 +96,7 @@ configs = {
         "blockReduced": 8192,
         "multiplierRequirement": 30000
     },
-    "xdai_aa": {
+    "gnosis_aa": {
         "url": "https://rpc.gnosischain.com",
         "blockReduced": 8192,
         "multiplierRequirement": 10000

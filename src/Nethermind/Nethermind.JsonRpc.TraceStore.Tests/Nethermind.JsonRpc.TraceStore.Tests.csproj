@@ -21,8 +21,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Remove="xdai-17600039.json" />
-      <EmbeddedResource Include="xdai-17600039.json" />
+      <None Remove="gnosis-17600039.json" />
+      <EmbeddedResource Include="gnosis-17600039.json" />
     </ItemGroup>
 
 </Project>

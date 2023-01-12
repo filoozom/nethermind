@@ -19,7 +19,7 @@ namespace Nethermind.Core
     /// 60: GoChain, the GoChain networks mainnet
     /// 77: Sokol, the public POA Network testnet
     /// 99: Core, the public POA Network main network
-    /// 100: xDai, the public MakerDAO/POA Network main network
+    /// 100: Gnosis, the public MakerDAO/POA Network main network
     /// 246: EnergyWeb, the public Energyweb main network
     /// 73799: Volta, the public Volta testnet
     /// 31337: GoChain testnet, the GoChain networks public testnet
@@ -43,7 +43,7 @@ namespace Nethermind.Core
         public const int EnergyWeb = 246;
         public const int DefaultGethPrivateChain = 1337;
         public const int Stureby = 314158;
-        public const int xDai = 100;
+        public const int Gnosis = 100;
         public const int PoaCore = 99;
         public const int Volta = 73799;
         public const int Sepolia = 11155111;
@@ -65,7 +65,7 @@ namespace Nethermind.Core
                 EthereumClassicTestnet => "EthereumClassicTestnet",
                 DefaultGethPrivateChain => "DefaultGethPrivateChain",
                 Stureby => "Stureby",
-                xDai => "xDai",
+                Gnosis => "Gnosis",
                 PoaCore => "PoaCore",
                 Volta => "Volta",
                 Sepolia => "Sepolia",
